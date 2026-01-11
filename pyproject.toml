@@ -1,0 +1,13 @@
+[project]
+name = "openkrx"
+version = "0.0.1"
+authors = [
+    { name="Gunhoon Lee", email="gunhoon@gmail.com" },
+]
+dependencies = [
+    "requests",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
